@@ -1,0 +1,27 @@
+{
+  "name": "smth-to-watch",
+  "version": "1.0.0",
+  "description": "friendly bot to find a movie to watch",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/index.js",
+    "dev": "nodemon ./src/index.js"
+  },
+  "engines": {
+    "node": "14.4.0"
+  },
+  "keywords": [
+    "js",
+    "javasript",
+    "node.js"
+  ],
+  "author": "Rostislav <rostikeden@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "mongoose": "^5.9.19",
+    "node-telegram-bot-api": "^0.50.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
